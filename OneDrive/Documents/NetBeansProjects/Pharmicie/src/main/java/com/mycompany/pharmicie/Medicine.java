@@ -116,14 +116,14 @@ return  ml;
              BufferedWriter writer = new BufferedWriter(new FileWriter("Medicine.txt"))) {
 
             String line;
-            // قراءة كل سطر من الملف المصدر وكتابته في الملف الوجهة
+           
             while ((line = reader.readLine()) != null) {
                 writer.write(line);
-                writer.newLine(); // إضافة سطر جديد
+                writer.newLine(); 
             }
-            System.out.println("تم نسخ البيانات بنجاح.");
+            System.out.println("The data has been copied successfully!");
         } catch (IOException e) {
-            System.out.println("حدث خطأ: " + e.getMessage());
+            System.out.println("Error: " + e.getMessage());
         }
     }
 

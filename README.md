@@ -21,3 +21,7 @@ This project is a Pharmacy Management System that helps manage various operation
 
 ## License
 This project is licensed under the MIT License.
+
+
+## Contact
+For any questions or support, reach out to barakatbasil79@gmail.com.
